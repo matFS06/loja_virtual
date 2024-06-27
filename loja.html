@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Virtual</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="loja.css">
+</head>
+<body>
+
+<!-- Barra de navegação -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Minha Loja Virtual</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-module="fastfoods">Fast-foods</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-module="roupas">Roupas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-module="ferramentas">Ferramentas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Conteúdo principal -->
+<main>
+
+    <!-- Módulo Fast-foods -->
+    <section id="fastfoods" class="module">
+        <div class="container">
+            <h2>Fast-foods</h2>
+            <div class="row">
+                <!--<div class="col-md-6">
+                    <div class="card">
+                        <img src="pizza.png" class="card-img-top" alt="Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza</h5>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="pizza.png" class="card-img-top" alt="Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 20,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="hamburger.png" class="card-img-top" alt="Hambúrguer">
+                        <div class="card-body">
+                            <h5 class="card-title">Hambúrguer</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 12,90</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="lasanha.png" class="card-img-top" alt="Lasanha">
+                        <div class="card-body">
+                            <h5 class="card-title">Lasanha</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 10,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="hot_dog.png" class="card-img-top" alt="Hot Dog">
+                        <div class="card-body">
+                            <h5 class="card-title">Hot Dog</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 6,50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Módulo Roupas -->
+    <section id="roupas" class="module">
+        <div class="container">
+            <h2>Roupas</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="camiseta_polo_white.png" class="card-img-top" alt="Camisa">
+                        <div class="card-body">
+                            <h5 class="card-title">Camisa</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 79,90</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="casaco_hp.png" class="card-img-top" alt="Casaco">
+                        <div class="card-body">
+                            <h5 class="card-title">Casaco</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 112,50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="bermuda_adidas.png" class="card-img-top" alt="Bermuda">
+                        <div class="card-body">
+                            <h5 class="card-title">Bermuda Masculina</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 69,50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="short_feminino.png" class="card-img-top" alt="Short">
+                        <div class="card-body">
+                            <h5 class="card-title">Short Feminino</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 55,50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Módulo Ferramentas -->
+    <section id="ferramentas" class="module">
+        <div class="container">
+            <h2>Ferramentas</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="martelo.png" class="card-img-top" alt="Martelo">
+                        <div class="card-body">
+                            <h5 class="card-title">Martelo</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 20,35</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="furadeira.png" class="card-img-top" alt="Furadeira">
+                        <div class="card-body">
+                            <h5 class="card-title">Furadeira</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 129,50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="alicate.png" class="card-img-top" alt="Alicate">
+                        <div class="card-body">
+                            <h5 class="card-title">Alicate</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 28,75</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="kit_chaves.png" class="card-img-top" alt="Chaves">
+                        <div class="card-body">
+                            <h5 class="card-title">Kit de Chaves</h5>
+                            <p class="card-text"><strong>Preço:</strong> R$ 118,50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-light text-center py-3">
+    <div class="container">
+        &copy; 2024 Minha Loja Virtual. Todos os direitos reservados.
+    </div>
+</footer>
+
+<!-- Bootstrap JS, jQuery, Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Script personalizado -->
+<script src="loja.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* Estilos adicionais conforme necessário */
+.card {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card-title, .card-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Esconde todos os módulos exceto o que está ativo */
+.module {
+    display: none;
+}
+
+/* Mostra o módulo ativo */
+.module.active {
+    display: block;
+}
+
+
+.card-img-top {
+    width: 538px;
+    height: 350px;
+}
+
+#fastfoods h2, #roupas h2, #ferramentas h2 {
+    /*position: absolute;*/
+    top: 20px;
+    left: 20px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#fastfoods {
+    background-image: url(bg_fast_foods.png);
+}
+
+#roupas {
+    background-image: url(bg_roupas.png);
+}
+
+#ferramentas {
+    background-image: url(bg_ferramentas.png);
+}
